@@ -51,11 +51,11 @@
 /*---  Colors  ---*/
 @black            : #1B1C1D;
 @blue             : #2196F3;
-@green            : #4CAF50;
-@grey             : #9E9E9E;
+@green            : #0ce1a7;
+@grey             : #787682;
 @orange           : #FF9800;
 @pink             : #E91E63;
-@purple           : #9C27B0;
+@purple           : #525360;
 @red              : #F44336;
 @teal             : #1de9b6;
 @yellow           : #FFEB3B;
@@ -66,7 +66,7 @@
 @lightGreen       : #00E676;
 @lightOrange      : #FF9100;
 @lightPink        : #F50057;
-@lightPurple      : #D500F9;
+@lightPurple      : #656775;
 @lightRed         : #FF1744;
 @lightTeal        : #1DE9B6;
 @lightYellow      : #FFEA00;
@@ -74,7 +74,7 @@
 /*---   Neutrals  ---*/
 @fullBlack        : #000000;
 @darkGrey         : #AAAAAA;
-@lightGrey        : #DCDDDE;
+@lightGrey        : #b0aeb9;
 @offWhite         : #FAFAFA;
 @darkWhite        : #F0F0F0;
 @white            : #FFFFFF;
@@ -116,5 +116,5 @@
 --------------------*/
 
 /* 4px @ default em */
-@relativeBorderRadius: @relative4px;
-@absoluteBorderRadius: 4px;
+@relativeBorderRadius: 0;
+@absoluteBorderRadius: 0;

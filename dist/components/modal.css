@@ -25,7 +25,7 @@
   box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.2), 1px 3px 15px 2px rgba(0, 0, 0, 0.2);
   -webkit-transform-origin: 50% 25%;
           transform-origin: 50% 25%;
-  border-radius: 0;
+  border-radius: 0.28571429rem;
   -webkit-user-select: text;
      -moz-user-select: text;
       -ms-user-select: text;
@@ -34,12 +34,12 @@
 }
 .ui.modal > :first-child:not(.icon),
 .ui.modal > .icon:first-child + * {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+  border-top-left-radius: 0.28571429rem;
+  border-top-right-radius: 0.28571429rem;
 }
 .ui.modal > :last-child {
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0.28571429rem;
+  border-bottom-right-radius: 0.28571429rem;
 }
 
 
@@ -75,7 +75,7 @@
 
 .ui.modal > .header {
   display: block;
-  font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   background: #FFFFFF;
   margin: 0em;
   padding: 1.25rem 1.5rem;
@@ -85,7 +85,7 @@
 }
 .ui.modal > .header:not(.ui) {
   font-size: 1.42857143rem;
-  line-height: 1.33em;
+  line-height: 1.2857em;
   font-weight: bold;
 }
 
@@ -167,7 +167,7 @@
 ---------------*/
 
 .ui.modal > .actions {
-  background: #FAFAFA;
+  background: #F9FAFB;
   padding: 1rem 1rem;
   border-top: 1px solid rgba(34, 36, 38, 0.15);
   text-align: right;
@@ -219,9 +219,9 @@
     padding-right: 2.25rem;
   }
   .ui.modal > .close {
-    top: 0.955rem;
+    top: 1.0535rem;
     right: 1rem;
-    color: #212121;
+    color: rgba(0, 0, 0, 0.87);
   }
 }
 
@@ -309,7 +309,7 @@
   right: 1.5rem;
 }
 .ui.inverted.dimmer > .basic.modal {
-  color: #212121;
+  color: rgba(0, 0, 0, 0.87);
 }
 .ui.inverted.dimmer > .ui.basic.modal > .header {
   color: rgba(0, 0, 0, 0.85);
@@ -399,9 +399,9 @@
   padding-right: 2.25rem;
 }
 .ui.fullscreen.modal > .close {
-  top: 0.955rem;
+  top: 1.0535rem;
   right: 1rem;
-  color: #212121;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 /*--------------
@@ -483,6 +483,12 @@
     margin: 0em 0em 0em -570px;
   }
 }
+
+
+/*******************************
+         Theme Overrides
+*******************************/
+
 
 
 /*******************************

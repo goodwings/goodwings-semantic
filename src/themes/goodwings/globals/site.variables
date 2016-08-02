@@ -48,6 +48,14 @@
       Site Colors
 --------------------*/
 
+/*---  Goodwings Colors  ---*/
+@deepPurpleDark   : #525360;
+@deepPurple       : #656775;
+@deepPurpleLight  : #787682;
+@deepPurpleLighter: #b0aeb9;
+@mintGreen:       : #0ce1a7;
+@showWhite        : #f6f6f6;
+
 /*---  Colors  ---*/
 @black            : #1B1C1D;
 @blue             : #2196F3;

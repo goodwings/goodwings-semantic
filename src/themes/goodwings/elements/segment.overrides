@@ -1,0 +1,21 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+/*--------------
+     Layout
+---------------*/
+
+.gw.component.panel > .ui.segment {
+  background: @white;
+}
+
+.gw.component.panel > .ui.primary.inverted.segment {
+  background: @deepPurpleDark;
+  color: @white;
+}
+
+.gw.component.panel > .ui.secondary.inverted.segment {
+  background: @showWhite;
+}
+

@@ -20,7 +20,7 @@
   margin: 1rem 0em;
   padding: 1em 1em;
   border-radius: 0;
-  border: 1px solid rgba(34, 36, 38, 0.15);
+  border: none;
 }
 .ui.segment:first-child {
   margin-top: 0em;
@@ -87,7 +87,7 @@
 /* Table */
 .ui.basic.table.segment {
   background: #FFFFFF;
-  border: 1px solid rgba(34, 36, 38, 0.15);
+  border: none;
   box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
 }
 .ui[class*="very basic"].table.segment {
@@ -128,7 +128,7 @@
   left: 0px;
   position: absolute;
   width: 100%;
-  border: 1px solid rgba(34, 36, 38, 0.15);
+  border: none;
   box-shadow: '';
 }
 .ui.piled.segments:before,
@@ -272,7 +272,7 @@
           flex-direction: column;
   position: relative;
   margin: 1rem 0em;
-  border: 1px solid rgba(34, 36, 38, 0.15);
+  border: none;
   box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
   border-radius: 0;
 }
@@ -346,7 +346,7 @@
   box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
   margin: 1rem 0em;
   border-radius: 0;
-  border: 1px solid rgba(34, 36, 38, 0.15);
+  border: none;
 }
 
 /* Nested Horizontal Group */
@@ -776,6 +776,27 @@
 .ui.massive.segments .segment,
 .ui.massive.segment {
   font-size: 1.71428571rem;
+}
+
+
+/*******************************
+         Site Overrides
+*******************************/
+
+
+/*--------------
+     Layout
+---------------*/
+
+.gw.component.panel > .ui.segment {
+  background: #FFFFFF;
+}
+.gw.component.panel > .ui.primary.inverted.segment {
+  background: #525360;
+  color: #FFFFFF;
+}
+.gw.component.panel > .ui.secondary.inverted.segment {
+  background: #f6f6f6;
 }
 
 

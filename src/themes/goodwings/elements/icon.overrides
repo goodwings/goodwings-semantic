@@ -1,0 +1,12 @@
+i.icon {
+  font-weight: 400;
+}
+
+i.mini.icon:before { content: none; }
+i.tiny.icon:before { content: none; }
+i.small.icon:before { content: none; }
+i.medium.icon:before { content: none; }
+i.large.icon:before { content: none; }
+i.big.icon:before { content: none; }
+i.huge.icon:before { content: none; }
+i.massive.icon:before { content: none; }

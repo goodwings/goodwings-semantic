@@ -13,3 +13,16 @@
     0px 2px 3px 0px rgba(0, 0, 0, 0.3) !important
   ;
 }
+
+// Fix centering of text i fluid vertical buttons
+.ui.vertical.fluid.buttons .button {
+  justify-content: center;
+}
+
+.ui.vertical.spaced.buttons {
+  .button {
+    &:not(:first-child) {
+      margin-top: 5px;
+    }
+  }
+}

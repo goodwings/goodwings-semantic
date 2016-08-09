@@ -6,6 +6,11 @@
      Layout
 ---------------*/
 
+.ui.segments .segment,
+.ui.segment {
+  font-size: @tiny;
+}
+
 .gw.component.panel > .ui.segment {
   background: @white;
 }

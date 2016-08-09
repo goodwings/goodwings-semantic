@@ -13,7 +13,7 @@
 
 @verticalPadding   : 0.8em;
 @horizontalPadding : 0.8em;
-@borderRadius      : @relative3px;
+@borderRadius      : 0;
 @color             : #222222;
 @fontWeight        : normal;
 @textTransform     : none;
@@ -58,7 +58,6 @@
 
 /* Basic */
 @basicBorderSize: 0px;
-@basicBorderRadius: 4px;
 @basicColoredBorderSize: 1px;
 @basicHoverBackground: @white;
 @basicHoverBoxShadow: @hoverBoxShadow;
@@ -79,11 +78,9 @@
 @coloredBoxShadow       : 0px 0px 0px 1px rgba(0, 0, 0, 0.1) inset;
 
 /* Primary */
-@primaryColor       : #4184F3;
 @primaryBoxShadow   : 0px 0px 0px 1px #0157E4 inset;
 
 /* Secondary */
-@secondaryColor           : #EEEEEE;
 @secondaryBackgroundImage : @backgroundImage;
 @secondaryTextColor       : @textColor;
 @secondaryBoxShadow       : @borderBoxShadow;

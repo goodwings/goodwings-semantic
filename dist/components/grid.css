@@ -34,10 +34,10 @@
 -----------------------*/
 
 .ui.grid {
-  margin-top: -1rem;
-  margin-bottom: -1rem;
-  margin-left: -1rem;
-  margin-right: -1rem;
+  margin-top: -1.42857143rem;
+  margin-bottom: -1.42857143rem;
+  margin-left: -1.42857143rem;
+  margin-right: -1.42857143rem;
 }
 .ui.relaxed.grid {
   margin-left: -1.5rem;
@@ -50,7 +50,7 @@
 
 /* Preserve Rows Spacing on Consecutive Grids */
 .ui.grid + .grid {
-  margin-top: 1rem;
+  margin-top: 1.42857143rem;
 }
 
 /*-------------------
@@ -64,13 +64,13 @@
   position: relative;
   display: inline-block;
   width: 6.25%;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1.42857143rem;
+  padding-right: 1.42857143rem;
   vertical-align: top;
 }
 .ui.grid > * {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1.42857143rem;
+  padding-right: 1.42857143rem;
 }
 
 /*-------------------
@@ -96,8 +96,8 @@
           align-items: stretch;
   width: 100% !important;
   padding: 0rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 1.42857143rem;
+  padding-bottom: 1.42857143rem;
 }
 
 /*-------------------
@@ -107,8 +107,8 @@
 
 /* Vertical padding when no rows */
 .ui.grid > .column:not(.row) {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 1.42857143rem;
+  padding-bottom: 1.42857143rem;
 }
 .ui.grid > .row > .column {
   margin-top: 0em;
@@ -148,10 +148,10 @@
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  margin: 1rem 1rem;
+  margin: 1.42857143rem 1.42857143rem;
 }
 .ui.grid .column + .ui.vertical.divider {
-  height: calc(50% -  1rem );
+  height: calc(50% -  1.42857143rem );
 }
 
 /* Remove Border on Last Horizontal Segment */
@@ -1048,8 +1048,8 @@
 /* Swap from padding to margin on columns to have dividers align */
 .ui[class*="vertically divided"].grid > .column:not(.row),
 .ui[class*="vertically divided"].grid > .row > .column {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 1.42857143rem;
+  margin-bottom: 1.42857143rem;
   padding-top: 0rem;
   padding-bottom: 0rem;
 }
@@ -1086,9 +1086,9 @@
   content: "";
   top: 0em;
   left: 0px;
-  width: calc(100% -  2rem );
+  width: calc(100% -  2.85714286rem );
   height: 1px;
-  margin: 0% 1rem;
+  margin: 0% 1.42857143rem;
   box-shadow: 0px -1px 0px 0px rgba(34, 36, 38, 0.15);
 }
 
@@ -1324,17 +1324,17 @@
 .ui.grid > .row > .brown.column,
 .ui.grid > .row > .grey.column,
 .ui.grid > .row > .black.column {
-  margin-top: -1rem;
-  margin-bottom: -1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  margin-top: -1.42857143rem;
+  margin-bottom: -1.42857143rem;
+  padding-top: 1.42857143rem;
+  padding-bottom: 1.42857143rem;
 }
 
 /* Red */
 .ui.grid > .red.row,
 .ui.grid > .red.column,
 .ui.grid > .row > .red.column {
-  background-color: #DB2828 !important;
+  background-color: #F44336 !important;
   color: #FFFFFF;
 }
 
@@ -1342,7 +1342,7 @@
 .ui.grid > .orange.row,
 .ui.grid > .orange.column,
 .ui.grid > .row > .orange.column {
-  background-color: #F2711C !important;
+  background-color: #FF9800 !important;
   color: #FFFFFF;
 }
 
@@ -1350,7 +1350,7 @@
 .ui.grid > .yellow.row,
 .ui.grid > .yellow.column,
 .ui.grid > .row > .yellow.column {
-  background-color: #FBBD08 !important;
+  background-color: #FFEB3B !important;
   color: #FFFFFF;
 }
 
@@ -1366,7 +1366,7 @@
 .ui.grid > .green.row,
 .ui.grid > .green.column,
 .ui.grid > .row > .green.column {
-  background-color: #21BA45 !important;
+  background-color: #0ce1a7 !important;
   color: #FFFFFF;
 }
 
@@ -1374,7 +1374,7 @@
 .ui.grid > .teal.row,
 .ui.grid > .teal.column,
 .ui.grid > .row > .teal.column {
-  background-color: #00B5AD !important;
+  background-color: #1de9b6 !important;
   color: #FFFFFF;
 }
 
@@ -1382,7 +1382,7 @@
 .ui.grid > .blue.row,
 .ui.grid > .blue.column,
 .ui.grid > .row > .blue.column {
-  background-color: #2185D0 !important;
+  background-color: #2196F3 !important;
   color: #FFFFFF;
 }
 
@@ -1398,7 +1398,7 @@
 .ui.grid > .purple.row,
 .ui.grid > .purple.column,
 .ui.grid > .row > .purple.column {
-  background-color: #A333C8 !important;
+  background-color: #525360 !important;
   color: #FFFFFF;
 }
 
@@ -1406,7 +1406,7 @@
 .ui.grid > .pink.row,
 .ui.grid > .pink.column,
 .ui.grid > .row > .pink.column {
-  background-color: #E03997 !important;
+  background-color: #E91E63 !important;
   color: #FFFFFF;
 }
 
@@ -1422,7 +1422,7 @@
 .ui.grid > .grey.row,
 .ui.grid > .grey.column,
 .ui.grid > .row > .grey.column {
-  background-color: #767676 !important;
+  background-color: #787682 !important;
   color: #FFFFFF;
 }
 
@@ -1610,8 +1610,8 @@
   .ui.grid > .doubling.row > .column,
   .ui.doubling.grid > .row > .column {
     display: inline-block !important;
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+    padding-top: 1.42857143rem !important;
+    padding-bottom: 1.42857143rem !important;
     box-shadow: none !important;
     margin: 0em;
   }
@@ -1701,8 +1701,8 @@
   }
   .ui.grid > .doubling.row > .column,
   .ui.doubling.grid > .row > .column {
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+    padding-top: 1.42857143rem !important;
+    padding-bottom: 1.42857143rem !important;
     margin: 0em !important;
     box-shadow: none !important;
   }
@@ -1803,7 +1803,7 @@
     width: 100% !important;
     margin: 0em 0em !important;
     box-shadow: none !important;
-    padding: 1rem 1rem !important;
+    padding: 1.42857143rem 1.42857143rem !important;
   }
   .ui.stackable.grid:not(.vertically) > .row {
     margin: 0em;
@@ -1820,8 +1820,8 @@
 /* Don't pad inside segment or nested grid */
   .ui.grid .ui.stackable.grid,
   .ui.segment:not(.vertical) .ui.stackable.page.grid {
-    margin-left: -1rem !important;
-    margin-right: -1rem !important;
+    margin-left: -1.42857143rem !important;
+    margin-right: -1.42857143rem !important;
   }
   
 /* Divided Stackable */
@@ -1843,8 +1843,8 @@
   .ui.stackable.divided:not(.vertically).grid > .row > .column {
     border-top: 1px solid rgba(34, 36, 38, 0.15);
     box-shadow: none !important;
-    padding-top: 2rem !important;
-    padding-bottom: 2rem !important;
+    padding-top: 2.85714286rem !important;
+    padding-bottom: 2.85714286rem !important;
   }
   .ui.stackable.celled.grid > .row {
     box-shadow: none !important;
@@ -1984,12 +1984,6 @@
     display: none !important;
   }
 }
-
-
-/*******************************
-         Theme Overrides
-*******************************/
-
 
 
 /*******************************

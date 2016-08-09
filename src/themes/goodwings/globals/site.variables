@@ -15,7 +15,7 @@
 --------------------*/
 
 @emSize            : 14px;
-@fontSize          : 13px;
+@fontSize          : 12px;
 
 /*--------------
       Page
@@ -91,10 +91,10 @@
     Brand Colors
 --------------------*/
 
-@primaryColor        : @blue;
-@secondaryColor      : @grey;
+@primaryColor        : @deepPurple;
+@secondaryColor      : @mintGreen;
 
-@lightPrimaryColor   : @lightBlue;
+@lightPrimaryColor   : @deepPurpleLight;
 @lightSecondaryColor : @lightGrey;
 
 /*-------------------

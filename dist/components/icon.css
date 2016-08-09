@@ -475,6 +475,7 @@ i.icons .inverted.corner.icon {
 }
 i.icon {
   font-weight: 400;
+  text-transform: initial !important;
 }
 i.mini.icon:before {
   content: none;

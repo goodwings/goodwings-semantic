@@ -1,0 +1,16 @@
+/*-------------------
+       Links
+--------------------*/
+
+a {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+/*-------------------
+       Paragraph
+--------------------*/
+
+p {
+  color: @textColor;
+}

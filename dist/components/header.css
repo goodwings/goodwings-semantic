@@ -24,7 +24,7 @@
   font-weight: normal;
   line-height: 1.33em;
   text-transform: none;
-  color: #212121;
+  color: #787880;
 }
 .ui.header:first-child {
   margin-top: -0.165em;
@@ -714,6 +714,14 @@ a.ui.inverted.grey.header:hover {
            Overrides
 *******************************/
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1B1C1D;
+}
 h1 {
   font-weight: 300;
 }
@@ -724,6 +732,15 @@ h1.ui.header,
 h2.ui.header,
 .ui.large.header {
   font-weight: normal;
+}
+h1.tagline,
+h2.tagline,
+h3.tagline,
+h4.tagline,
+h5.tagline,
+h6.tagline {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 

@@ -4,6 +4,10 @@
 
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 
+h1, h2, h3, h4, h5, h6 {
+  color: @headerColor;
+}
+
 h1 {
   font-weight: 300;
 }
@@ -16,4 +20,11 @@ h1.ui.header,
 h2.ui.header,
 .ui.large.header {
   font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  &.tagline {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
 }

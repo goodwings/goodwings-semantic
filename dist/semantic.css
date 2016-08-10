@@ -8,7 +8,7 @@
  * http://opensource.org/licenses/MIT
  *
  */
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic&subset=latin');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,700,100italic,200italic,300italic,400italic,700italic&subset=latin');
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 /*!
@@ -529,7 +529,7 @@ body {
   font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 1.33;
-  color: #212121;
+  color: #787880;
   font-smoothing: antialiased;
 }
 
@@ -608,12 +608,12 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #009FDA;
+  color: #0ce1a7;
   text-decoration: none;
 }
 
 a:hover {
-  color: #00b2f3;
+  color: #14f2b6;
   text-decoration: none;
 }
 
@@ -643,19 +643,36 @@ a:hover {
 textarea::-webkit-selection,
 input::-webkit-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: #212121;
+  color: #787880;
 }
 
 textarea::-moz-selection,
 input::-moz-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: #212121;
+  color: #787880;
 }
 
 textarea::selection,
 input::selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: #212121;
+  color: #787880;
+}
+
+/*-------------------
+       Links
+--------------------*/
+
+a {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+/*-------------------
+       Paragraph
+--------------------*/
+
+p {
+  color: #787880;
 }
 
 /*******************************
@@ -6376,7 +6393,7 @@ i.flag.zimbabwe:before {
   font-weight: normal;
   line-height: 1.33em;
   text-transform: none;
-  color: #212121;
+  color: #787880;
 }
 
 .ui.header:first-child {
@@ -7170,6 +7187,15 @@ a.ui.inverted.grey.header:hover {
            Overrides
 *******************************/
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1B1C1D;
+}
+
 h1 {
   font-weight: 300;
 }
@@ -7182,6 +7208,16 @@ h1.ui.header,
 h2.ui.header,
 .ui.large.header {
   font-weight: normal;
+}
+
+h1.tagline,
+h2.tagline,
+h3.tagline,
+h4.tagline,
+h5.tagline,
+h6.tagline {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 /*******************************
@@ -10244,7 +10280,7 @@ ol.ui.list ol li,
   margin: 0em;
   font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
-  color: #212121;
+  color: #787880;
 }
 
 /* Description */
@@ -10267,12 +10303,12 @@ ol.ui.list ol li,
 .ui.list .list > a.item,
 .ui.list > a.item {
   cursor: pointer;
-  color: #009FDA;
+  color: #0ce1a7;
 }
 
 .ui.list .list > a.item:hover,
 .ui.list > a.item:hover {
-  color: #00b2f3;
+  color: #14f2b6;
 }
 
 /* Linked Item Icons */
@@ -10287,12 +10323,12 @@ ol.ui.list ol li,
 .ui.list .list > .item a.header,
 .ui.list > .item a.header {
   cursor: pointer;
-  color: #009FDA !important;
+  color: #0ce1a7 !important;
 }
 
 .ui.list .list > .item a.header:hover,
 .ui.list > .item a.header:hover {
-  color: #00b2f3 !important;
+  color: #14f2b6 !important;
 }
 
 /* Floated Content */
@@ -10432,7 +10468,7 @@ ol.ui.list ol li,
 
 .ui.list .list > a.item:hover .icon,
 .ui.list > a.item:hover .icon {
-  color: #212121;
+  color: #787880;
 }
 
 /*******************************
@@ -10468,7 +10504,7 @@ ol.ui.list ol li,
 
 .ui.inverted.list .list > a.item:hover,
 .ui.inverted.list > a.item:hover {
-  color: #00b2f3;
+  color: #14f2b6;
 }
 
 /* Linking Content */
@@ -10478,7 +10514,7 @@ ol.ui.list ol li,
 }
 
 .ui.inverted.list .item a:not(.ui):hover {
-  color: #00b2f3 !important;
+  color: #14f2b6 !important;
 }
 
 /*-------------------
@@ -10693,7 +10729,7 @@ ul.ui.list li:before,
 ul.ui.list li:before,
 .ui.bulleted.list .list > a.item:before,
 .ui.bulleted.list > a.item:before {
-  color: #212121;
+  color: #787880;
 }
 
 ul.ui.list ul,
@@ -10720,7 +10756,7 @@ ul.ui.horizontal.bulleted.list li:first-child,
 
 ul.ui.horizontal.bulleted.list li::before,
 .ui.horizontal.bulleted.list > .item::before {
-  color: #212121;
+  color: #787880;
 }
 
 ul.ui.horizontal.bulleted.list li:first-child::before,
@@ -10763,7 +10799,7 @@ ol.ui.list li:before,
   counter-increment: ordered;
   content: counters(ordered, ".") " ";
   text-align: right;
-  color: #212121;
+  color: #787880;
   vertical-align: middle;
   opacity: 0.8;
 }
@@ -12712,7 +12748,7 @@ ol.ui.horizontal.list li:before,
 /* Nested */
 
 .ui.inverted.segment .segment {
-  color: #212121;
+  color: #787880;
 }
 
 .ui.inverted.segment .inverted.segment {

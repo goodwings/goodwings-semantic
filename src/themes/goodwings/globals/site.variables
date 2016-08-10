@@ -23,7 +23,7 @@
 
 @pageBackground      : #F9F9F9;
 @lineHeight          : 1.33;
-@textColor           : #212121;
+@textColor           : #787880;
 
 /*--------------
   Page Heading
@@ -107,10 +107,10 @@
        Links
 --------------------*/
 
-@linkColor           : #009FDA;
+@linkColor           : @mintGreen;
 @linkUnderline       : none;
 @linkHoverColor      : lighten(@linkColor, 5);
-@linkHoverUnderline  : @linkUnderline;
+@linkHoverUnderline  : none;
 
 /*-------------------
   Highlighted Text

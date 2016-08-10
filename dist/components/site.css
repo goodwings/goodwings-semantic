@@ -13,7 +13,7 @@
              Page
 *******************************/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic&subset=latin');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,700,100italic,200italic,300italic,400italic,700italic&subset=latin');
 html,
 body {
   height: 100%;
@@ -30,7 +30,7 @@ body {
   font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 1.33;
-  color: #212121;
+  color: #787880;
   font-smoothing: antialiased;
 }
 
@@ -102,11 +102,11 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #009FDA;
+  color: #0ce1a7;
   text-decoration: none;
 }
 a:hover {
-  color: #00b2f3;
+  color: #14f2b6;
   text-decoration: none;
 }
 
@@ -134,17 +134,34 @@ a:hover {
 textarea::-webkit-selection,
 input::-webkit-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: #212121;
+  color: #787880;
 }
 textarea::-moz-selection,
 input::-moz-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: #212121;
+  color: #787880;
 }
 textarea::selection,
 input::selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: #212121;
+  color: #787880;
+}
+
+/*-------------------
+       Links
+--------------------*/
+
+a {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+/*-------------------
+       Paragraph
+--------------------*/
+
+p {
+  color: #787880;
 }
 
 

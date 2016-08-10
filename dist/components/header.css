@@ -714,6 +714,9 @@ a.ui.inverted.grey.header:hover {
            Overrides
 *******************************/
 
+h1 {
+  font-weight: 300;
+}
 h1.ui.header,
 .ui.huge.header {
   font-weight: normal;

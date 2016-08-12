@@ -1,0 +1,53 @@
+/*----------------------
+        Condensed
+-----------------------*/
+
+.ui.condensed.grid {
+    margin-top: -(@condensedGutterWidth / 2);
+    margin-bottom: -(@condensedGutterWidth / 2);
+    margin-left: -(@condensedGutterWidth / 2);
+    margin-right: -(@condensedGutterWidth / 2);
+}
+
+.ui[class*="very condensed"].grid {
+    margin-top: -(@veryCondensedGutterWidth / 2);
+    margin-bottom: -(@veryCondensedGutterWidth / 2);
+    margin-left: -(@veryCondensedGutterWidth / 2);
+    margin-right: -(@veryCondensedGutterWidth / 2);
+}
+
+.ui.condensed.grid > .column:not(.row) {
+  padding-top: (@condensedGutterWidth / 2);
+  padding-bottom: (@condensedGutterWidth / 2);
+}
+
+.ui.condensed.grid > .column:not(.row),
+.ui.condensed.grid > .row > .column,
+.ui.grid > .condensed.row > .column {
+  padding-left: (@condensedGutterWidth / 2);
+  padding-right: (@condensedGutterWidth / 2);
+}
+
+.ui[class*="very condensed"].grid > .column:not(.row) {
+  padding-top: (@veryCondensedGutterWidth / 2);
+  padding-bottom: (@veryCondensedGutterWidth / 2);
+}
+
+.ui[class*="very condensed"].grid > .column:not(.row),
+.ui[class*="very condensed"].grid > .row > .column,
+.ui.grid > [class*="very condensed"].row > .column {
+  padding-left: (@veryCondensedGutterWidth / 2);
+  padding-right: (@veryCondensedGutterWidth / 2);
+}
+
+/* Coupling with UI Divider */
+.ui.condensed.grid .row + .ui.divider,
+.ui.grid .condensed.row + .ui.divider {
+  margin-left: (@condensedGutterWidth / 2);
+  margin-right: (@condensedGutterWidth / 2);
+}
+.ui[class*="very condensed"].grid .row + .ui.divider,
+.ui.grid [class*="very condensed"].row + .ui.divider {
+  margin-left: (@veryCondensedGutterWidth / 2);
+  margin-right: (@veryCondensedGutterWidth / 2);
+}

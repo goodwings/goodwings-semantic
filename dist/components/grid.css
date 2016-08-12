@@ -1985,6 +1985,55 @@
   }
 }
 
+/*----------------------
+        Condensed
+-----------------------*/
+
+.ui.condensed.grid {
+  margin-top: -0.71428571rem;
+  margin-bottom: -0.71428571rem;
+  margin-left: -0.71428571rem;
+  margin-right: -0.71428571rem;
+}
+.ui[class*="very condensed"].grid {
+  margin-top: -0.35714286rem;
+  margin-bottom: -0.35714286rem;
+  margin-left: -0.35714286rem;
+  margin-right: -0.35714286rem;
+}
+.ui.condensed.grid > .column:not(.row) {
+  padding-top: 0.71428571rem;
+  padding-bottom: 0.71428571rem;
+}
+.ui.condensed.grid > .column:not(.row),
+.ui.condensed.grid > .row > .column,
+.ui.grid > .condensed.row > .column {
+  padding-left: 0.71428571rem;
+  padding-right: 0.71428571rem;
+}
+.ui[class*="very condensed"].grid > .column:not(.row) {
+  padding-top: 0.35714286rem;
+  padding-bottom: 0.35714286rem;
+}
+.ui[class*="very condensed"].grid > .column:not(.row),
+.ui[class*="very condensed"].grid > .row > .column,
+.ui.grid > [class*="very condensed"].row > .column {
+  padding-left: 0.35714286rem;
+  padding-right: 0.35714286rem;
+}
+
+/* Coupling with UI Divider */
+.ui.condensed.grid .row + .ui.divider,
+.ui.grid .condensed.row + .ui.divider {
+  margin-left: 0.71428571rem;
+  margin-right: 0.71428571rem;
+}
+.ui[class*="very condensed"].grid .row + .ui.divider,
+.ui.grid [class*="very condensed"].row + .ui.divider {
+  margin-left: 0.35714286rem;
+  margin-right: 0.35714286rem;
+}
+
 
 /*******************************
          Site Overrides

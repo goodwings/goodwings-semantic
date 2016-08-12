@@ -16,8 +16,8 @@
 
 @minWidth: 320px;
 
-@gutterWidth: 2.857142857rem;
-@rowSpacing: 2.857142857rem;
+@gutterWidth: @40px;
+@rowSpacing: @40px;
 
 @tableWidth: ~"calc(100% + "@gutterWidth~")";
 @columnMaxImageWidth: 100%;
@@ -34,6 +34,12 @@
 
 @relaxedGutterWidth: 3rem;
 @veryRelaxedGutterWidth: 5rem;
+
+/*----------------------
+        Condensed
+-----------------------*/
+@condensedGutterWidth: @20px;
+@veryCondensedGutterWidth: @10px;
 
 /*--------------
      Divided

@@ -3,4 +3,4 @@
 @verticalPadding: 2.5em;
 @horizontalPadding: 2.5em;
 
-@groupedSegmentDivider: @borderWidth solid @borderColor;
+@groupedSegmentDivider: @borderWidth solid @dividerColor;

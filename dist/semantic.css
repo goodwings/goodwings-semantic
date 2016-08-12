@@ -12332,7 +12332,7 @@ ol.ui.horizontal.list li:before,
   width: auto;
   box-shadow: none;
   border: none;
-  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  border-top: 1px solid #E2E2E2;
 }
 
 .ui.segments:not(.horizontal) > .segment:first-child {
@@ -12364,7 +12364,7 @@ ol.ui.horizontal.list li:before,
 /* Nested Group */
 
 .ui.segments > .ui.segments {
-  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  border-top: 1px solid #E2E2E2;
   margin: 1rem 1rem;
 }
 
@@ -12404,7 +12404,7 @@ ol.ui.horizontal.list li:before,
   border-radius: 0px;
   border: none;
   box-shadow: none;
-  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  border-top: 1px solid #E2E2E2;
 }
 
 /* Horizontal Segment */

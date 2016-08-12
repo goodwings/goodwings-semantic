@@ -55,6 +55,8 @@
 @deepPurpleLighter: #b0aeb9;
 @mintGreen        : #0ce1a7;
 @showWhite        : #f6f6f6;
+@dividerColor     : #E2E2E2;
+
 
 /*---  Colors  ---*/
 @black            : #1B1C1D;

@@ -1,0 +1,9 @@
+/*--------------
+    Container text
+---------------*/
+
+ui.container.text.divider {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}

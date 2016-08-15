@@ -7185,7 +7185,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1B1C1D;
+  color: #525360;
 }
 
 h1 {
@@ -17150,6 +17150,13 @@ ol.ui.horizontal.list li:before,
   margin-bottom: -0.71428571rem;
   margin-left: -0.71428571rem;
   margin-right: -0.71428571rem;
+}
+
+.ui[class*="very condensed"].grid {
+  margin-top: -0.35714286rem;
+  margin-bottom: -0.35714286rem;
+  margin-left: -0.35714286rem;
+  margin-right: -0.35714286rem;
 }
 
 .ui.condensed.grid > .column:not(.row) {

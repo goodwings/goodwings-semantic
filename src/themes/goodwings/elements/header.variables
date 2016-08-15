@@ -10,7 +10,7 @@
 @iconAlignment: top;
 
 @subHeaderFontSize: 1rem;
-@headerColor: @black;
+@headerColor: @deepPurpleDark;
 
 /* HTML Headings */
 @h1 : 2.25rem;

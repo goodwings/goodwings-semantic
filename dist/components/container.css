@@ -134,6 +134,14 @@
           hyphens: auto;
 }
 
+/*-------------------
+       Types
+--------------------*/
+
+.gw.view.fixed.splitpane-container .ui.container {
+  width: auto;
+}
+
 
 /*******************************
          Site Overrides

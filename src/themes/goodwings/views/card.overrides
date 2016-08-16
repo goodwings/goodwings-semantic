@@ -1,0 +1,9 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+
+.ui.cards.grid {
+  display: flex;
+  flex-flow: row wrap;
+}

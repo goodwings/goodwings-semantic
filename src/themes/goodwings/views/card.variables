@@ -14,12 +14,12 @@
 @fontFamily: @pageFont;
 @display: flex;
 @background: @white;
-@borderRadius: @defaultBorderRadius;
+@borderRadius: 0;
 @margin: 1em 0em;
 @minHeight: 0px;
 @padding: 0em;
 @width: 290px;
-@borderWidth: 1px;
+@borderWidth: 0;
 @borderShadow: 0px 0px 0px @borderWidth @solidBorderColor;
 @boxShadow:
   @shadowBoxShadow,
@@ -33,8 +33,8 @@
 ;
 
 /* Card Group */
-@horizontalSpacing: 1em;
-@rowSpacing: 1.75em;
+@horizontalSpacing: @20px;
+@rowSpacing: @20px;
 
 @groupMargin: -(@rowSpacing / 2) -(@horizontalSpacing / 2);
 @groupDisplay: flex;
@@ -62,7 +62,7 @@
 @contentDivider: @borderWidth solid @internalBorderColor;
 @contentMargin: 0em;
 @contentBackground: none;
-@contentPadding: @10px @10px;
+@contentPadding: 1em 1em;
 @contentFontSize: 1em;
 @contentBorderRadius: 0em;
 @contentBoxShadow: none;
@@ -172,7 +172,7 @@
 ;
 
 /* Card Count */
-@wideCardSpacing: 1em;
+@wideCardSpacing: @10px;
 @cardSpacing: 0.75em;
 @smallCardSpacing: 0.5em;
 

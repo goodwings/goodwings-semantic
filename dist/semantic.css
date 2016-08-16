@@ -4828,6 +4828,14 @@ p {
   hyphens: auto;
 }
 
+/*-------------------
+       Types
+--------------------*/
+
+.gw.view.fixed.splitpane-container .ui.container {
+  width: auto;
+}
+
 /*******************************
          Site Overrides
 *******************************/
@@ -21574,8 +21582,8 @@ Floated Menu / Item
   background: #FFFFFF;
   padding: 0em;
   border: none;
-  border-radius: 0.28571429rem;
-  box-shadow: 0px 1px 3px 0px #D4D4D5, 0px 0px 0px 1px #D4D4D5;
+  border-radius: 0;
+  box-shadow: 0px 1px 3px 0px #D4D4D5, 0px 0px 0px 0 #D4D4D5;
   -webkit-transition: box-shadow 0.1s ease, -webkit-transform 0.1s ease;
   transition: box-shadow 0.1s ease, -webkit-transform 0.1s ease;
   transition: box-shadow 0.1s ease, transform 0.1s ease;
@@ -21608,7 +21616,7 @@ Floated Menu / Item
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: -0.875em -0.5em;
+  margin: -0.71428571rem -0.71428571rem;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -21617,7 +21625,7 @@ Floated Menu / Item
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0.875em 0.5em;
+  margin: 0.71428571rem 0.71428571rem;
   float: none;
 }
 
@@ -21636,7 +21644,7 @@ Floated Menu / Item
 /* Consecutive Card Groups Preserve Row Spacing */
 
 .ui.cards ~ .ui.cards {
-  margin-top: 0.875em;
+  margin-top: 0.71428571rem;
 }
 
 /*--------------
@@ -21645,18 +21653,18 @@ Floated Menu / Item
 
 .ui.cards > .card > :first-child,
 .ui.card > :first-child {
-  border-radius: 0.28571429rem 0.28571429rem 0em 0em !important;
+  border-radius: 0 0 0em 0em !important;
   border-top: none !important;
 }
 
 .ui.cards > .card > :last-child,
 .ui.card > :last-child {
-  border-radius: 0em 0em 0.28571429rem 0.28571429rem !important;
+  border-radius: 0em 0em 0 0 !important;
 }
 
 .ui.cards > .card > :only-child,
 .ui.card > :only-child {
-  border-radius: 0.28571429rem !important;
+  border-radius: 0 !important;
 }
 
 /*--------------
@@ -21697,7 +21705,7 @@ Floated Menu / Item
   -ms-flex-positive: 1;
   flex-grow: 1;
   border: none;
-  border-top: 1px solid rgba(34, 36, 38, 0.1);
+  border-top: 0 solid rgba(34, 36, 38, 0.1);
   background: none;
   margin: 0em;
   padding: 1em 1em;
@@ -21720,7 +21728,7 @@ Floated Menu / Item
 .ui.card > .content > .header {
   display: block;
   margin: '';
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   color: rgba(0, 0, 0, 0.85);
 }
 
@@ -21730,8 +21738,8 @@ Floated Menu / Item
 .ui.card > .content > .header:not(.ui) {
   font-weight: bold;
   font-size: 1.28571429em;
-  margin-top: -0.21425em;
-  line-height: 1.2857em;
+  margin-top: -0.165em;
+  line-height: 1.33em;
 }
 
 .ui.cards > .card > .content > .meta + .description,
@@ -21871,7 +21879,7 @@ Floated Menu / Item
 
 .ui.cards > .card > .content > a.header:hover,
 .ui.card > .content > a.header:hover {
-  color: #1e70bf;
+  color: #14f2b6;
 }
 
 /* Meta */
@@ -21883,7 +21891,7 @@ Floated Menu / Item
 
 .ui.cards > .card .meta > a:not(.ui):hover,
 .ui.card .meta > a:not(.ui):hover {
-  color: rgba(0, 0, 0, 0.87);
+  color: #787880;
 }
 
 /*--------------
@@ -21894,8 +21902,8 @@ Floated Menu / Item
 .ui.card > .buttons,
 .ui.cards > .card > .button,
 .ui.card > .button {
-  margin: 0px -1px;
-  width: calc(100% +  2px );
+  margin: 0px 0;
+  width: calc(100% +  0 );
 }
 
 /*--------------
@@ -21990,7 +21998,7 @@ Floated Menu / Item
 
 .ui.cards > .card > .extra a:not(.ui):hover,
 .ui.card > .extra a:not(.ui):hover {
-  color: #1e70bf;
+  color: #14f2b6;
 }
 
 /*******************************
@@ -22003,19 +22011,19 @@ Floated Menu / Item
 
 .ui.raised.cards > .card,
 .ui.raised.card {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.15);
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.15);
 }
 
 .ui.raised.cards a.card:hover,
 .ui.link.cards .raised.card:hover,
 a.ui.raised.card:hover,
 .ui.link.raised.card:hover {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 4px 0px rgba(34, 36, 38, 0.15), 0px 2px 10px 0px rgba(34, 36, 38, 0.25);
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 4px 0px rgba(34, 36, 38, 0.15), 0px 2px 10px 0px rgba(34, 36, 38, 0.25);
 }
 
 .ui.raised.cards > .card,
 .ui.raised.card {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.15);
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.15);
 }
 
 /*-------------------
@@ -22062,7 +22070,7 @@ a.ui.card:hover,
   z-index: 5;
   background: #FFFFFF;
   border: none;
-  box-shadow: 0px 1px 3px 0px #BCBDBD, 0px 0px 0px 1px #D4D4D5;
+  box-shadow: 0px 1px 3px 0px #BCBDBD, 0px 0px 0px 0 #D4D4D5;
   -webkit-transform: translateY(-3px);
   transform: translateY(-3px);
 }
@@ -22076,13 +22084,13 @@ a.ui.card:hover,
 .ui.red.cards > .card,
 .ui.cards > .red.card,
 .ui.red.card {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #DB2828, 0px 1px 3px 0px #D4D4D5;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #F44336, 0px 1px 3px 0px #D4D4D5;
 }
 
 .ui.red.cards > .card:hover,
 .ui.cards > .red.card:hover,
 .ui.red.card:hover {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #d01919, 0px 1px 3px 0px #BCBDBD;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #fd2313, 0px 1px 3px 0px #BCBDBD;
 }
 
 /* Orange */
@@ -22090,13 +22098,13 @@ a.ui.card:hover,
 .ui.orange.cards > .card,
 .ui.cards > .orange.card,
 .ui.orange.card {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #F2711C, 0px 1px 3px 0px #D4D4D5;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #FF9800, 0px 1px 3px 0px #D4D4D5;
 }
 
 .ui.orange.cards > .card:hover,
 .ui.cards > .orange.card:hover,
 .ui.orange.card:hover {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #f26202, 0px 1px 3px 0px #BCBDBD;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #e68900, 0px 1px 3px 0px #BCBDBD;
 }
 
 /* Yellow */
@@ -22104,13 +22112,13 @@ a.ui.card:hover,
 .ui.yellow.cards > .card,
 .ui.cards > .yellow.card,
 .ui.yellow.card {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #FBBD08, 0px 1px 3px 0px #D4D4D5;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #FFEB3B, 0px 1px 3px 0px #D4D4D5;
 }
 
 .ui.yellow.cards > .card:hover,
 .ui.cards > .yellow.card:hover,
 .ui.yellow.card:hover {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #eaae00, 0px 1px 3px 0px #BCBDBD;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #ffe821, 0px 1px 3px 0px #BCBDBD;
 }
 
 /* Olive */
@@ -22118,13 +22126,13 @@ a.ui.card:hover,
 .ui.olive.cards > .card,
 .ui.cards > .olive.card,
 .ui.olive.card {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #B5CC18, 0px 1px 3px 0px #D4D4D5;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #B5CC18, 0px 1px 3px 0px #D4D4D5;
 }
 
 .ui.olive.cards > .card:hover,
 .ui.cards > .olive.card:hover,
 .ui.olive.card:hover {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #a7bd0d, 0px 1px 3px 0px #BCBDBD;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #a7bd0d, 0px 1px 3px 0px #BCBDBD;
 }
 
 /* Green */
@@ -22132,13 +22140,13 @@ a.ui.card:hover,
 .ui.green.cards > .card,
 .ui.cards > .green.card,
 .ui.green.card {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #21BA45, 0px 1px 3px 0px #D4D4D5;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #0ce1a7, 0px 1px 3px 0px #D4D4D5;
 }
 
 .ui.green.cards > .card:hover,
 .ui.cards > .green.card:hover,
 .ui.green.card:hover {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #16ab39, 0px 1px 3px 0px #BCBDBD;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #01d299, 0px 1px 3px 0px #BCBDBD;
 }
 
 /* Teal */
@@ -22146,13 +22154,13 @@ a.ui.card:hover,
 .ui.teal.cards > .card,
 .ui.cards > .teal.card,
 .ui.teal.card {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #00B5AD, 0px 1px 3px 0px #D4D4D5;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #1de9b6, 0px 1px 3px 0px #D4D4D5;
 }
 
 .ui.teal.cards > .card:hover,
 .ui.cards > .teal.card:hover,
 .ui.teal.card:hover {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #009c95, 0px 1px 3px 0px #BCBDBD;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #0be1ac, 0px 1px 3px 0px #BCBDBD;
 }
 
 /* Blue */
@@ -22160,13 +22168,13 @@ a.ui.card:hover,
 .ui.blue.cards > .card,
 .ui.cards > .blue.card,
 .ui.blue.card {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #2185D0, 0px 1px 3px 0px #D4D4D5;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #2196F3, 0px 1px 3px 0px #D4D4D5;
 }
 
 .ui.blue.cards > .card:hover,
 .ui.cards > .blue.card:hover,
 .ui.blue.card:hover {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #1678c2, 0px 1px 3px 0px #BCBDBD;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #028bf9, 0px 1px 3px 0px #BCBDBD;
 }
 
 /* Violet */
@@ -22174,13 +22182,13 @@ a.ui.card:hover,
 .ui.violet.cards > .card,
 .ui.cards > .violet.card,
 .ui.violet.card {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #6435C9, 0px 1px 3px 0px #D4D4D5;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #6435C9, 0px 1px 3px 0px #D4D4D5;
 }
 
 .ui.violet.cards > .card:hover,
 .ui.cards > .violet.card:hover,
 .ui.violet.card:hover {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #5829bb, 0px 1px 3px 0px #BCBDBD;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #5829bb, 0px 1px 3px 0px #BCBDBD;
 }
 
 /* Purple */
@@ -22188,13 +22196,13 @@ a.ui.card:hover,
 .ui.purple.cards > .card,
 .ui.cards > .purple.card,
 .ui.purple.card {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #A333C8, 0px 1px 3px 0px #D4D4D5;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #525360, 0px 1px 3px 0px #D4D4D5;
 }
 
 .ui.purple.cards > .card:hover,
 .ui.cards > .purple.card:hover,
 .ui.purple.card:hover {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #9627ba, 0px 1px 3px 0px #BCBDBD;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #464753, 0px 1px 3px 0px #BCBDBD;
 }
 
 /* Pink */
@@ -22202,13 +22210,13 @@ a.ui.card:hover,
 .ui.pink.cards > .card,
 .ui.cards > .pink.card,
 .ui.pink.card {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #E03997, 0px 1px 3px 0px #D4D4D5;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #E91E63, 0px 1px 3px 0px #D4D4D5;
 }
 
 .ui.pink.cards > .card:hover,
 .ui.cards > .pink.card:hover,
 .ui.pink.card:hover {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #e61a8d, 0px 1px 3px 0px #BCBDBD;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #e20b54, 0px 1px 3px 0px #BCBDBD;
 }
 
 /* Brown */
@@ -22216,13 +22224,13 @@ a.ui.card:hover,
 .ui.brown.cards > .card,
 .ui.cards > .brown.card,
 .ui.brown.card {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #A5673F, 0px 1px 3px 0px #D4D4D5;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #A5673F, 0px 1px 3px 0px #D4D4D5;
 }
 
 .ui.brown.cards > .card:hover,
 .ui.cards > .brown.card:hover,
 .ui.brown.card:hover {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #975b33, 0px 1px 3px 0px #BCBDBD;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #975b33, 0px 1px 3px 0px #BCBDBD;
 }
 
 /* Grey */
@@ -22230,13 +22238,13 @@ a.ui.card:hover,
 .ui.grey.cards > .card,
 .ui.cards > .grey.card,
 .ui.grey.card {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #767676, 0px 1px 3px 0px #D4D4D5;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #787682, 0px 1px 3px 0px #D4D4D5;
 }
 
 .ui.grey.cards > .card:hover,
 .ui.cards > .grey.card:hover,
 .ui.grey.card:hover {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #838383, 0px 1px 3px 0px #BCBDBD;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #85838e, 0px 1px 3px 0px #BCBDBD;
 }
 
 /* Black */
@@ -22244,13 +22252,13 @@ a.ui.card:hover,
 .ui.black.cards > .card,
 .ui.cards > .black.card,
 .ui.black.card {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #1B1C1D, 0px 1px 3px 0px #D4D4D5;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #1B1C1D, 0px 1px 3px 0px #D4D4D5;
 }
 
 .ui.black.cards > .card:hover,
 .ui.cards > .black.card:hover,
 .ui.black.card:hover {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #27292a, 0px 1px 3px 0px #BCBDBD;
+  box-shadow: 0px 0px 0px 0 #D4D4D5, 0px 2px 0px 0px #27292a, 0px 1px 3px 0px #BCBDBD;
 }
 
 /*--------------
@@ -22267,25 +22275,25 @@ a.ui.card:hover,
 }
 
 .ui.two.cards {
-  margin-left: -1em;
-  margin-right: -1em;
+  margin-left: -0.71428571rem;
+  margin-right: -0.71428571rem;
 }
 
 .ui.two.cards > .card {
-  width: calc( 50%  -  2em );
-  margin-left: 1em;
-  margin-right: 1em;
+  width: calc( 50%  -  1.42857143rem );
+  margin-left: 0.71428571rem;
+  margin-right: 0.71428571rem;
 }
 
 .ui.three.cards {
-  margin-left: -1em;
-  margin-right: -1em;
+  margin-left: -0.71428571rem;
+  margin-right: -0.71428571rem;
 }
 
 .ui.three.cards > .card {
-  width: calc( 33.33333333%  -  2em );
-  margin-left: 1em;
-  margin-right: 1em;
+  width: calc( 33.33333333%  -  1.42857143rem );
+  margin-left: 0.71428571rem;
+  margin-right: 0.71428571rem;
 }
 
 .ui.four.cards {
@@ -22386,91 +22394,91 @@ a.ui.card:hover,
   }
 
   .ui.three.doubling.cards {
-    margin-left: -1em;
-    margin-right: -1em;
+    margin-left: -0.71428571rem;
+    margin-right: -0.71428571rem;
   }
 
   .ui.three.doubling.cards .card {
-    width: calc( 50%  -  2em );
-    margin-left: 1em;
-    margin-right: 1em;
+    width: calc( 50%  -  1.42857143rem );
+    margin-left: 0.71428571rem;
+    margin-right: 0.71428571rem;
   }
 
   .ui.four.doubling.cards {
-    margin-left: -1em;
-    margin-right: -1em;
+    margin-left: -0.71428571rem;
+    margin-right: -0.71428571rem;
   }
 
   .ui.four.doubling.cards .card {
-    width: calc( 50%  -  2em );
-    margin-left: 1em;
-    margin-right: 1em;
+    width: calc( 50%  -  1.42857143rem );
+    margin-left: 0.71428571rem;
+    margin-right: 0.71428571rem;
   }
 
   .ui.five.doubling.cards {
-    margin-left: -1em;
-    margin-right: -1em;
+    margin-left: -0.71428571rem;
+    margin-right: -0.71428571rem;
   }
 
   .ui.five.doubling.cards .card {
-    width: calc( 50%  -  2em );
-    margin-left: 1em;
-    margin-right: 1em;
+    width: calc( 50%  -  1.42857143rem );
+    margin-left: 0.71428571rem;
+    margin-right: 0.71428571rem;
   }
 
   .ui.six.doubling.cards {
-    margin-left: -1em;
-    margin-right: -1em;
+    margin-left: -0.71428571rem;
+    margin-right: -0.71428571rem;
   }
 
   .ui.six.doubling.cards .card {
-    width: calc( 50%  -  2em );
-    margin-left: 1em;
-    margin-right: 1em;
+    width: calc( 50%  -  1.42857143rem );
+    margin-left: 0.71428571rem;
+    margin-right: 0.71428571rem;
   }
 
   .ui.seven.doubling.cards {
-    margin-left: -1em;
-    margin-right: -1em;
+    margin-left: -0.71428571rem;
+    margin-right: -0.71428571rem;
   }
 
   .ui.seven.doubling.cards .card {
-    width: calc( 33.33333333%  -  2em );
-    margin-left: 1em;
-    margin-right: 1em;
+    width: calc( 33.33333333%  -  1.42857143rem );
+    margin-left: 0.71428571rem;
+    margin-right: 0.71428571rem;
   }
 
   .ui.eight.doubling.cards {
-    margin-left: -1em;
-    margin-right: -1em;
+    margin-left: -0.71428571rem;
+    margin-right: -0.71428571rem;
   }
 
   .ui.eight.doubling.cards .card {
-    width: calc( 33.33333333%  -  2em );
-    margin-left: 1em;
-    margin-right: 1em;
+    width: calc( 33.33333333%  -  1.42857143rem );
+    margin-left: 0.71428571rem;
+    margin-right: 0.71428571rem;
   }
 
   .ui.nine.doubling.cards {
-    margin-left: -1em;
-    margin-right: -1em;
+    margin-left: -0.71428571rem;
+    margin-right: -0.71428571rem;
   }
 
   .ui.nine.doubling.cards .card {
-    width: calc( 33.33333333%  -  2em );
-    margin-left: 1em;
-    margin-right: 1em;
+    width: calc( 33.33333333%  -  1.42857143rem );
+    margin-left: 0.71428571rem;
+    margin-right: 0.71428571rem;
   }
 
   .ui.ten.doubling.cards {
-    margin-left: -1em;
-    margin-right: -1em;
+    margin-left: -0.71428571rem;
+    margin-right: -0.71428571rem;
   }
 
   .ui.ten.doubling.cards .card {
-    width: calc( 33.33333333%  -  2em );
-    margin-left: 1em;
-    margin-right: 1em;
+    width: calc( 33.33333333%  -  1.42857143rem );
+    margin-left: 0.71428571rem;
+    margin-right: 0.71428571rem;
   }
 }
 
@@ -22489,58 +22497,58 @@ a.ui.card:hover,
   }
 
   .ui.three.doubling.cards {
-    margin-left: -1em;
-    margin-right: -1em;
+    margin-left: -0.71428571rem;
+    margin-right: -0.71428571rem;
   }
 
   .ui.three.doubling.cards .card {
-    width: calc( 50%  -  2em );
-    margin-left: 1em;
-    margin-right: 1em;
+    width: calc( 50%  -  1.42857143rem );
+    margin-left: 0.71428571rem;
+    margin-right: 0.71428571rem;
   }
 
   .ui.four.doubling.cards {
-    margin-left: -1em;
-    margin-right: -1em;
+    margin-left: -0.71428571rem;
+    margin-right: -0.71428571rem;
   }
 
   .ui.four.doubling.cards .card {
-    width: calc( 50%  -  2em );
-    margin-left: 1em;
-    margin-right: 1em;
+    width: calc( 50%  -  1.42857143rem );
+    margin-left: 0.71428571rem;
+    margin-right: 0.71428571rem;
   }
 
   .ui.five.doubling.cards {
-    margin-left: -1em;
-    margin-right: -1em;
+    margin-left: -0.71428571rem;
+    margin-right: -0.71428571rem;
   }
 
   .ui.five.doubling.cards .card {
-    width: calc( 33.33333333%  -  2em );
-    margin-left: 1em;
-    margin-right: 1em;
+    width: calc( 33.33333333%  -  1.42857143rem );
+    margin-left: 0.71428571rem;
+    margin-right: 0.71428571rem;
   }
 
   .ui.six.doubling.cards {
-    margin-left: -1em;
-    margin-right: -1em;
+    margin-left: -0.71428571rem;
+    margin-right: -0.71428571rem;
   }
 
   .ui.six.doubling.cards .card {
-    width: calc( 33.33333333%  -  2em );
-    margin-left: 1em;
-    margin-right: 1em;
+    width: calc( 33.33333333%  -  1.42857143rem );
+    margin-left: 0.71428571rem;
+    margin-right: 0.71428571rem;
   }
 
   .ui.eight.doubling.cards {
-    margin-left: -1em;
-    margin-right: -1em;
+    margin-left: -0.71428571rem;
+    margin-right: -0.71428571rem;
   }
 
   .ui.eight.doubling.cards .card {
-    width: calc( 33.33333333%  -  2em );
-    margin-left: 1em;
-    margin-right: 1em;
+    width: calc( 33.33333333%  -  1.42857143rem );
+    margin-left: 0.71428571rem;
+    margin-right: 0.71428571rem;
   }
 
   .ui.eight.doubling.cards {
@@ -22610,6 +22618,14 @@ a.ui.card:hover,
 /*******************************
          Theme Overrides
 *******************************/
+
+.ui.cards.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
 
 /*******************************
     User Variable Overrides

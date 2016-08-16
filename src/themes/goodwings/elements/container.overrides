@@ -1,0 +1,7 @@
+/*-------------------
+       Types
+--------------------*/
+
+.gw.view.fixed.splitpane-container .ui.container {
+  width: auto;
+}

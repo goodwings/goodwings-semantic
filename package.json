@@ -1,6 +1,6 @@
 {
   "name": "goodwings-semantic",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Goodwings base styling based on semantic UI",
   "main": "index.js",
   "scripts": {

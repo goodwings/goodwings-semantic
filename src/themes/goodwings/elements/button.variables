@@ -9,30 +9,30 @@
 @googleFontName : 'Roboto';
 @pageFont       : 'Roboto', Arial, sans-serif;
 
-@medium: 13px;
 
-@verticalPadding   : 0.8em;
-@horizontalPadding : 0.8em;
+@verticalPadding   : 1rem;
+@horizontalPadding : 1.5rem;
 @borderRadius      : 0;
-@color             : #222222;
-@fontWeight        : normal;
-@textTransform     : none;
+@color             : @deepPurpleDark;
+@fontWeight        : 600;
+@textTransform     : uppercase;
 
-@backgroundColor      : @white;
+@background        : @offWhite;
+
 @backgroundImage      : linear-gradient(transparent, rgba(0, 0, 0, 0.02));
 
 @solidBorderColor: #DDDDDD;
 
 @borderBoxShadowColor: @solidBorderColor;
-@borderBoxShadow: 0px 0px 0px 1px @solidBorderColor inset;
+@borderBoxShadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
 @shadowBoxShadow: 0px 0px 0px 0px transparent;
 
 @transition:
-  opacity 0.3s @defaultEasing,
-  background-color 0.3s @defaultEasing,
-  color 0.3s @defaultEasing,
-  box-shadow 0.3s @defaultEasing,
-  background 0.3s @defaultEasing
+  opacity 0.2s @defaultEasing,
+  background-color 0.2s @defaultEasing,
+  color 0.2s @defaultEasing,
+  box-shadow 0.2s @defaultEasing,
+  background 0.2s @defaultEasing
 ;
 /*-------------------
         State
@@ -81,8 +81,8 @@
 @primaryBoxShadow   : 0px 0px 0px 1px #0157E4 inset;
 
 /* Secondary */
-@secondaryBackgroundImage : @backgroundImage;
-@secondaryTextColor       : @textColor;
+@secondaryBackgroundImage : none;
+@secondaryTextColor       : @white;
 @secondaryBoxShadow       : @borderBoxShadow;
 
 /* Emotive */

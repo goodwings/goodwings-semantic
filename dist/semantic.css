@@ -699,27 +699,26 @@ p {
   outline: none;
   border: none;
   vertical-align: baseline;
-  background: #FFFFFF -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.02));
-  background: #FFFFFF linear-gradient(transparent, rgba(0, 0, 0, 0.02));
+  background: #FAFAFA;
   color: rgba(0, 0, 0, 0.6);
   font-family: 'Roboto', Arial, sans-serif;
   margin: 0em 0.25em 0em 0em;
-  padding: 0.8em 0.8em 0.8em;
-  text-transform: none;
+  padding: 1rem 1.5rem 1rem;
+  text-transform: uppercase;
   text-shadow: none;
-  font-weight: normal;
+  font-weight: 600;
   line-height: 1em;
   font-style: normal;
   text-align: center;
   text-decoration: none;
   border-radius: 0;
-  box-shadow: 0px 0px 0px 1px #DDDDDD inset, 0px 0px 0px 0px transparent;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15), 0px 0px 0px 0px transparent;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: opacity 0.3s ease, background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
-  transition: opacity 0.3s ease, background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  -webkit-transition: opacity 0.2s ease, background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  transition: opacity 0.2s ease, background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
   will-change: '';
   -webkit-tap-highlight-color: transparent;
 }
@@ -736,7 +735,7 @@ p {
   background-color: #FFFFFF;
   background-image: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.02));
   background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.02));
-  box-shadow: 0px 0px 0px 1px #DDDDDD inset, 0px 2px 3px 0px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.2) !important;
   color: rgba(0, 0, 0, 0.8);
 }
 
@@ -769,7 +768,7 @@ p {
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04));
   background-image: linear-gradient(rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04));
   color: rgba(0, 0, 0, 0.9);
-  box-shadow: 0px 0px 0px 1px #DDDDDD inset;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
 }
 
 /*--------------
@@ -923,7 +922,7 @@ p {
 
 .ui.animated.button .visible.content {
   position: relative;
-  margin-right: 0.8em;
+  margin-right: 1.5rem;
 }
 
 .ui.animated.button .hidden.content {
@@ -1396,17 +1395,17 @@ p {
 
 .ui.compact.buttons .button,
 .ui.compact.button {
-  padding: 0.6em 0.6em 0.6em;
+  padding: 0.75rem 1.125rem 0.75rem;
 }
 
 .ui.compact.icon.buttons .button,
 .ui.compact.icon.button {
-  padding: 0.6em 0.6em 0.6em;
+  padding: 0.75rem 0.75rem 0.75rem;
 }
 
 .ui.compact.labeled.icon.buttons .button,
 .ui.compact.labeled.icon.button {
-  padding: 0.6em 2.6em 0.6em;
+  padding: 0.75rem 3.125rem 0.75rem;
 }
 
 /*-------------------
@@ -1434,7 +1433,7 @@ p {
 .ui.buttons .button,
 .ui.buttons .or,
 .ui.button {
-  font-size: 13px;
+  font-size: 1rem;
 }
 
 .ui.large.buttons .button,
@@ -1467,7 +1466,7 @@ p {
 
 .ui.icon.buttons .button,
 .ui.icon.button {
-  padding: 0.8em 0.8em 0.8em;
+  padding: 1rem 1rem 1rem;
 }
 
 .ui.icon.buttons .button > .icon,
@@ -1506,21 +1505,21 @@ p {
 .ui.basic.button:hover {
   background: #FFFFFF !important;
   color: rgba(0, 0, 0, 0.8) !important;
-  box-shadow: 0px 0px 0px 1px #DDDDDD inset, 0px 2px 3px 0px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.2) !important;
 }
 
 .ui.basic.buttons .button:focus,
 .ui.basic.button:focus {
   background: #FFFFFF !important;
   color: rgba(0, 0, 0, 0.8) !important;
-  box-shadow: 0px 0px 0px 1px #DDDDDD inset, 0px 2px 3px 0px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.2) !important;
 }
 
 .ui.basic.buttons .button:active,
 .ui.basic.button:active {
   background: #FFFFFF !important;
   color: rgba(0, 0, 0, 0.9) !important;
-  box-shadow: 0px 0px 0px 1px #DDDDDD inset;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
 }
 
 .ui.basic.buttons .active.button,
@@ -1539,11 +1538,11 @@ p {
 /* Vertical */
 
 .ui.basic.buttons .button:hover {
-  box-shadow: 0px 0px 0px 1px #DDDDDD inset, 0px 2px 3px 0px rgba(0, 0, 0, 0.2) inset !important;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.2) inset !important;
 }
 
 .ui.basic.buttons .button:active {
-  box-shadow: 0px 0px 0px 1px #DDDDDD inset inset;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15) inset;
 }
 
 .ui.basic.buttons .active.button {
@@ -1619,8 +1618,8 @@ p {
 .ui.labeled.icon.buttons .button,
 .ui.labeled.icon.button {
   position: relative;
-  padding-left: 2.8em !important;
-  padding-right: 0.8em !important;
+  padding-left: 3.5rem !important;
+  padding-right: 1.5rem !important;
 }
 
 /* Left Labeled */
@@ -1652,8 +1651,8 @@ p {
 /* Right Labeled */
 
 .ui[class*="right labeled"].icon.button {
-  padding-right: 2.8em !important;
-  padding-left: 0.8em !important;
+  padding-right: 3.5rem !important;
+  padding-left: 1.5rem !important;
 }
 
 .ui[class*="right labeled"].icon.button > .icon {
@@ -1706,8 +1705,8 @@ p {
 
 .ui.fluid[class*="left labeled"].icon.button,
 .ui.fluid[class*="right labeled"].icon.button {
-  padding-left: 0.8em !important;
-  padding-right: 0.8em !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
 }
 
 /*--------------
@@ -1751,7 +1750,7 @@ p {
 .ui.buttons .or {
   position: relative;
   width: 0.3em;
-  height: 2.6em;
+  height: 3rem;
   z-index: 3;
 }
 
@@ -1764,15 +1763,15 @@ p {
   left: 50%;
   background-color: #FFFFFF;
   text-shadow: none;
-  margin-top: -0.9em;
-  margin-left: -0.9em;
-  width: 1.8em;
-  height: 1.8em;
-  line-height: 1.8em;
+  margin-top: -1rem;
+  margin-left: -1rem;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
   color: rgba(0, 0, 0, 0.4);
   font-style: normal;
   font-weight: bold;
-  box-shadow: 0px 0px 0px 1px #DDDDDD inset;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
 }
 
 .ui.buttons .or[data-text]:before {
@@ -4299,7 +4298,7 @@ p {
 .ui.secondary.buttons .button,
 .ui.secondary.button {
   background-color: #0ce1a7;
-  color: rgba(0, 0, 0, 0.6);
+  color: #FFFFFF;
   text-shadow: none;
   background-image: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.05));
@@ -4312,21 +4311,21 @@ p {
 .ui.secondary.buttons .button:hover,
 .ui.secondary.button:hover {
   background-color: #09febb;
-  color: rgba(0, 0, 0, 0.6);
+  color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.secondary.buttons .button:focus,
 .ui.secondary.button:focus {
   background-color: #17ffc0;
-  color: rgba(0, 0, 0, 0.6);
+  color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.secondary.buttons .button:active,
 .ui.secondary.button:active {
   background-color: #2cf4bd;
-  color: rgba(0, 0, 0, 0.6);
+  color: #FFFFFF;
   text-shadow: none;
 }
 
@@ -4335,7 +4334,7 @@ p {
 .ui.secondary.active.button,
 .ui.secondary.button .active.button:active {
   background-color: #08ffbc;
-  color: rgba(0, 0, 0, 0.6);
+  color: #FFFFFF;
   text-shadow: none;
 }
 
@@ -4598,7 +4597,7 @@ p {
 
 .ui.buttons > .ui.button:not(.basic):not(.inverted),
 .ui.buttons:not(.basic):not(.inverted) > .button {
-  box-shadow: 0px 0px 0px 1px #DDDDDD inset, 0px 0px 0px 0px transparent;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15), 0px 0px 0px 0px transparent;
 }
 
 .ui.buttons .button:first-child {
@@ -4653,12 +4652,9 @@ p {
   border-radius: 0px 0px 0 0;
 }
 
-.ui.primary.button:hover {
-  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.3) inset, 0px 2px 3px 0px rgba(0, 0, 0, 0.35) !important;
-}
-
-.ui.secondary.button:hover {
-  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2) inset, 0px 2px 3px 0px rgba(0, 0, 0, 0.3) !important;
+.ui.button {
+  font-size: 0.78571429rem;
+  letter-spacing: 0.1em;
 }
 
 .ui.vertical.fluid.buttons .button {
@@ -22071,8 +22067,8 @@ a.ui.card:hover,
   background: #FFFFFF;
   border: none;
   box-shadow: 0px 1px 3px 0px #BCBDBD, 0px 0px 0px 0 #D4D4D5;
-  -webkit-transform: 0;
-  transform: 0;
+  -webkit-transform: none;
+  transform: none;
 }
 
 /*-------------------

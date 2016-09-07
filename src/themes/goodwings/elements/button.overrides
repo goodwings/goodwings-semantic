@@ -29,3 +29,8 @@
     }
   }
 }
+
+// Allow for removing of right margin
+.ui.fitted.button {
+  margin-right: 0;
+}

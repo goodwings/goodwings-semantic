@@ -3479,6 +3479,9 @@
 .ui.vertical.spaced.buttons .button:not(:first-child) {
   margin-top: 5px;
 }
+.ui.fitted.button {
+  margin-right: 0;
+}
 
 
 /*******************************

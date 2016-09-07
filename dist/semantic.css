@@ -4665,6 +4665,10 @@ p {
   margin-top: 5px;
 }
 
+.ui.fitted.button {
+  margin-right: 0;
+}
+
 /*******************************
          Site Overrides
 *******************************/

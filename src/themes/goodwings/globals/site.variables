@@ -109,7 +109,7 @@
        Links
 --------------------*/
 
-@linkColor           : @mintGreen;
+@linkColor           : @deepPurple;
 @linkUnderline       : none;
 @linkHoverColor      : lighten(@linkColor, 5);
 @linkHoverUnderline  : none;

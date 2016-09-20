@@ -102,11 +102,11 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #0ce1a7;
+  color: #656775;
   text-decoration: none;
 }
 a:hover {
-  color: #14f2b6;
+  color: #717383;
   text-decoration: none;
 }
 
@@ -151,9 +151,11 @@ input::selection {
        Links
 --------------------*/
 
-a {
-  text-transform: uppercase;
-  letter-spacing: .1em;
+.gw.text.page a {
+  text-decoration: underline;
+}
+.gw.text.page a:hover {
+  color: #0ce1a7;
 }
 
 /*-------------------

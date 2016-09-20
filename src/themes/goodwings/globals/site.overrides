@@ -2,9 +2,11 @@
        Links
 --------------------*/
 
-a {
-  text-transform: uppercase;
-  letter-spacing: .1em;
+.gw.text.page a {
+  text-decoration: underline;
+  &:hover {
+    color: @mintGreen;
+  }
 }
 
 /*-------------------

@@ -49,6 +49,7 @@
 --------------------*/
 
 /*---  Goodwings Colors  ---*/
+@deepPurpleDarker : #393d4c;
 @deepPurpleDark   : #525360;
 @deepPurple       : #656775;
 @deepPurpleLight  : #787682;

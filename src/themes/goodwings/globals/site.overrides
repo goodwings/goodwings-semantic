@@ -1,3 +1,20 @@
+@headerFontName: 'BebasNeueBold';
+
+@font-face {
+  font-family: @headerFontName;
+  font-style: normal;
+  font-weight: 400;
+  src: url("@{fontPath}/@{headerFontName}.eot"); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url("@{fontPath}/@{headerFontName}.eot?#iefix") format('embedded-opentype'),
+       url("@{fontPath}/@{headerFontName}.woff2") format('woff2'),
+       url("@{fontPath}/@{headerFontName}.woff") format('woff'),
+       url("@{fontPath}/@{headerFontName}.ttf") format('truetype'),
+       url("@{fontPath}/@{headerFontName}.svg#icons") format('svg')
+}
+
+
 /*-------------------
        Links
 --------------------*/

@@ -146,6 +146,15 @@ input::selection {
   background-color: rgba(100, 100, 100, 0.4);
   color: #787880;
 }
+@font-face {
+  font-family: 'BebasNeueBold';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./../themes/default/assets/fonts/BebasNeueBold.eot");
+  
+/* For IE6-8 */
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url("./../themes/default/assets/fonts/BebasNeueBold.eot?#iefix") format('embedded-opentype'), url("./../themes/default/assets/fonts/BebasNeueBold.woff2") format('woff2'), url("./../themes/default/assets/fonts/BebasNeueBold.woff") format('woff'), url("./../themes/default/assets/fonts/BebasNeueBold.ttf") format('truetype'), url("./../themes/default/assets/fonts/BebasNeueBold.svg#icons") format('svg');
+}
 
 /*-------------------
        Links

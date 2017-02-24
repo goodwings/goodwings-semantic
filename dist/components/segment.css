@@ -792,9 +792,6 @@
 .ui.segment {
   font-size: 0.85714286rem;
 }
-.gw.component.panel > .ui.segment {
-  background: #FFFFFF;
-}
 .gw.component.panel > .ui.primary.inverted.segment {
   background: #525360;
   color: #FFFFFF;

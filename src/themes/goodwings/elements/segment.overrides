@@ -11,10 +11,6 @@
   font-size: @tiny;
 }
 
-.gw.component.panel > .ui.segment {
-  background: @white;
-}
-
 .gw.component.panel > .ui.primary.inverted.segment {
   background: @deepPurpleDark;
   color: @white;

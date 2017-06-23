@@ -2,14 +2,10 @@
   font-family: @alternativeFontName;
   font-style: normal;
   font-weight: 400;
-  src: url("@{fontPath}/@{alternativeFontName}.eot"); /* For IE6-8 */
   src: local('Material Icons'),
        local('MaterialIcons-Regular'),
-       url("@{fontPath}/@{alternativeFontName}.eot?#iefix") format('embedded-opentype'),
        url("@{fontPath}/@{alternativeFontName}.woff2") format('woff2'),
-       url("@{fontPath}/@{alternativeFontName}.woff") format('woff'),
-       url("@{fontPath}/@{alternativeFontName}.ttf") format('truetype'),
-       url("@{fontPath}/@{alternativeFontName}.svg#icons") format('svg')
+       url("@{fontPath}/@{alternativeFontName}.woff") format('woff')
 }
 
 

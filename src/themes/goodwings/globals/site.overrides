@@ -8,6 +8,13 @@
        url("@{fontPath}/@{alternativeFontName}.woff") format('woff')
 }
 
+@font-face {
+  font-family: @markMyWordsFontName;
+  font-style: normal;
+  font-weight: 400;
+  src: url("@{fontPath}/@{markMyWordsFontName}.woff2") format('woff2'),
+       url("@{fontPath}/@{markMyWordsFontName}.woff") format('woff')
+}
 
 /*-------------------
        Links

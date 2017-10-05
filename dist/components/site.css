@@ -152,6 +152,12 @@ input::selection {
   font-weight: 400;
   src: local('Material Icons'), local('MaterialIcons-Regular'), url("./../themes/default/assets/fonts/BebasNeueBold.woff2") format('woff2'), url("./../themes/default/assets/fonts/BebasNeueBold.woff") format('woff');
 }
+@font-face {
+  font-family: 'MarkMyWords';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./../themes/default/assets/fonts/MarkMyWords.woff2") format('woff2'), url("./../themes/default/assets/fonts/MarkMyWords.woff") format('woff');
+}
 
 /*-------------------
        Links

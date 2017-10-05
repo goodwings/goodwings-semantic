@@ -6,11 +6,13 @@
        Fonts
 --------------------*/
 @alternativeFontName : 'BebasNeueBold';
+@markMyWordsFontName : 'MarkMyWords';
 @googleFontName      : 'Roboto';
 
 @headerFont          : 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 @pageFont            : 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 @alternativeFont     : 'BebasNeueBold', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@markMyWordsFont     : 'MarkMyWords', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 
 /*-------------------
       Base Sizes
